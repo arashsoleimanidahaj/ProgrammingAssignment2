@@ -1,9 +1,6 @@
-##This is the final solution to Peer-graded assignment
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-s=list(1,2,3)
+##This is the final solution to Peer-graded assignment 2
+## a list functions that set the value of matrix, get the value of matrix
+## set the value of inverse, and get the value of inverse
 makeCacheMatrix <- function(x = matrix()) {
   matrix_i<-NULL
   
@@ -22,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Uses Solve function to find the inverse of a Matrix datatype
+## it first checks to see if the inverse has already been calculated.
+
 
 cacheSolve <- function(x, ...) {
   matrix_i <- x[getInverse()]
